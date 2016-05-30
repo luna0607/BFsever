@@ -10,9 +10,7 @@ import serviceImpl.IOServiceImpl;
 import serviceImpl.UserServiceImpl;
 
 public  class DataRemoteObject extends UnicastRemoteObject implements IOService, UserService {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 4029039744279087114L;
 	private IOService iOService;
 	private UserService userService;
